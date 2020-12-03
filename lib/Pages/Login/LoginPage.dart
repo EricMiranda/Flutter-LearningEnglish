@@ -18,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.max,
-        children: <Widget>[Text("Login")],
+        children: <Widget>[Text("Login"), TextField()],
       ),
     ));
   }
